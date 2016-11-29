@@ -68,5 +68,7 @@ LDA 1;
 OUT;
 HLT;
 
+Now you can drag and drop files onto LMC.py and it will execute that file as an LMC script.
+
 Feel free to send in extra code and/or fixes or what-have-you.
 
