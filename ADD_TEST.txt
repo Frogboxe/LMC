@@ -1,0 +1,10 @@
+
+
+INP;
+STA 1;
+INP;
+
+ADD 1;
+OUT;
+
+HLT;

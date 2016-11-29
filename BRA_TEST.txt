@@ -1,0 +1,8 @@
+
+
+INP;
+OUT;
+BRA 0;
+OUT;
+0;
+HLT;

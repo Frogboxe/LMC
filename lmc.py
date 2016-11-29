@@ -1,4 +1,6 @@
 
+from sys import argv
+
 class P:
     # Consts
     DBG = True
@@ -159,8 +161,15 @@ def Main(script):
     Read()
     if P.DBG: DbgOut(P.memory)
 
-Main("""
-
-
+print(argv[1])
+try:
+    argv[1]
+    with open(argv[1], "r") as f:
+        txt = "".join(f.readlines())
+    Main(txt)
+except IndexError:
+    Main("""
+HLT;
 """)
 
+input("EXIT")
