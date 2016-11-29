@@ -161,34 +161,6 @@ def Main(script):
 
 Main("""
 
-SET 1;
-STA 81;
-
-INP;
-STA 1;
-STA 3;
-INP;
-STA 2;
-SUB 81;
-STA 4;
-
-0;
-LDA 4;
-BRZ 1;
-LDA 1;
-ADD 3;
-STA 1;
-LDA 4;
-SUB 81;
-STA 4;
-BRA 0;
-
-
-1;
-LDA 1;
-OUT;
-HLT;
-
 
 """)
 
